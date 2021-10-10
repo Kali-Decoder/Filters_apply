@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+.container,body
+{
+    font-family: 'EB Garamond', serif;
+    background-color: #353535;
+    color: white;
+}
+input[type='search']
+{
+    background-color: #353535;
+    color: aliceblue !important;
+    border: 2px solid white;
+}
+input[type='search']::placeholder
+{
+    color: #ffd166;
+}
+input[type='search']:focus
+{
+    background-color: #353535;
+    
+}
+.filter-items
+{
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-around;
+    scrollbar-width: 2px ;
+    overflow-x: auto;
+}
+button{
+    outline: none;
+    border: 2px solid white;
+    font-weight: bold;
+    background-color: #353535;
+    color: white;
+}
+button:focus,button:hover{
+    color: #ffd60a;
+    border: 2px solid #ffd60a;
+}
+.product-box
+{
+    border: 2px solid white;
+    /* border-top-left-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
+    overflow: hidden;
+    
+}
